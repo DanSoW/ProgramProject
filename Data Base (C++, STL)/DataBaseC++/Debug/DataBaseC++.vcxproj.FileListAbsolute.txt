@@ -1,0 +1,2 @@
+C:\VisualStudioProject\DataBaseC++\Debug\DataBaseC++.exe
+C:\VisualStudioProject\DataBaseC++\Debug\DataBaseC++.pdb

@@ -1,0 +1,17 @@
+onload = function ()
+    {
+    let grounds = ["fon1.png",
+                   "fon2.png",
+                   "fon3.png",
+                   "fon4.png",
+                   "fon5.png"];
+    let t = 5;
+    
+    document.getElementById("change_image").style.backgroundImage = 'url(' + grounds[4] + ')';
+    setInterval (function ()
+       {
+       let p = grounds.shift ();
+       document.getElementById("change_image").style.backgroundImage = 'url(' + p + ')';
+       grounds.push (p);
+       }, t * 1000);
+}

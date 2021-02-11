@@ -1,0 +1,15 @@
+C:\VisualStudioProject\KursProject\bin\Debug\KursProject.exe.config
+C:\VisualStudioProject\KursProject\bin\Debug\KursProject.exe
+C:\VisualStudioProject\KursProject\bin\Debug\KursProject.pdb
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.csprojAssemblyReference.cache
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.Properties.Resources.resources
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.csproj.GenerateResource.cache
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.csproj.CoreCompileInputs.cache
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.exe
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.pdb
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.MainForm.resources
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.CreateFileForm.resources
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.OpenFileForm.resources
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.CreateEntryForm.resources
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.ViewStatForm.resources
+C:\VisualStudioProject\KursProject\obj\Debug\KursProject.RequestForm.resources

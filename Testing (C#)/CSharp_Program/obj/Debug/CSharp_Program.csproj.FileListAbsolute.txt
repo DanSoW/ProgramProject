@@ -1,0 +1,9 @@
+C:\VisualStudioProject\CSharp_Program\obj\Debug\CSharp_Program.csprojAssemblyReference.cache
+C:\VisualStudioProject\CSharp_Program\obj\Debug\CSharp_Program.csproj.CoreCompileInputs.cache
+C:\VisualStudioProject\CSharp_Program\bin\Debug\CSharp_Program.exe.config
+C:\VisualStudioProject\CSharp_Program\bin\Debug\CSharp_Program.exe
+C:\VisualStudioProject\CSharp_Program\bin\Debug\CSharp_Program.pdb
+C:\VisualStudioProject\CSharp_Program\obj\Debug\CSharp_Program.exe
+C:\VisualStudioProject\CSharp_Program\obj\Debug\CSharp_Program.pdb
+C:\VisualStudioProject\CSharp_Program\obj\Debug\CSharp_Program.Window.resources
+C:\VisualStudioProject\CSharp_Program\obj\Debug\CSharp_Program.csproj.GenerateResource.cache

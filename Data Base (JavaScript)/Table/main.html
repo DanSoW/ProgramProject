@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            @import url(style.css);
+        </style>
+    </head>
+    <body>
+        <div style="margin: 0 auto; width: 900px; height: auto">
+            <table class="table">
+                <tbody data-table-body>
+                    <tr>
+                        <td>
+                            ID
+                        </td>
+                        <td>
+                            Дата
+                        </td>
+                        <td>
+                            Название
+                        </td>
+                        <td>
+                            Количество
+                        </td>
+                        <td>
+                            Расстояние
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" data-time></td>
+                        <td><input type="text" data-name></td>
+                        <td><input type="text" data-counter></td>
+                        <td><input type="text" data-distance></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="button" value="Добавить" style="margin-top: 10px; background-color: rgb(47, 47, 48); margin-left: 89%; color:white; width: 100px; height: 30px;" data-button-add>
+            <input type="button" value="Сохранить" style="margin-top: 10px; background-color: rgb(47, 47, 48); margin-left: 89%; color:white; width: 100px; height: 30px;" data-button-save>
+            <input type="button" value="Загрузить" style="margin-top: 10px; background-color: rgb(47, 47, 48); margin-left: 89%; color:white; width: 100px; height: 30px;" data-button-load>
+            <input type="button" value="Удалить" style="margin-top: 10px; background-color: rgb(47, 47, 48); margin-left: 89%; color:white; width: 100px; height: 30px;" data-button-delete>
+            <input type="button" value="Изменить" style="margin-top: 10px; background-color: rgb(47, 47, 48); margin-left: 89%; color:white; width: 100px; height: 30px;" data-button-change>
+            <input type="button" value="Сортировать" style="margin-top: 10px; background-color: rgb(47, 47, 48); margin-left: 89%; color:white; width: 100px; height: 30px;" data-button-sort>
+        </div>
+        <script src="data_base.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

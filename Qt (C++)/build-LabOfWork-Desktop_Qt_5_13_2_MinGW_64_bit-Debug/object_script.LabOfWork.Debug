@@ -1,0 +1,13 @@
+debug/main.o
+debug/mainwindow.o
+debug/tablewidget.o
+debug/wcheckbox.o
+debug/windowpicture.o
+debug/wmaskedit.o
+debug/wradiobutton.o
+debug/moc_mainwindow.o
+debug/moc_tablewidget.o
+debug/moc_wcheckbox.o
+debug/moc_windowpicture.o
+debug/moc_wmaskedit.o
+debug/moc_wradiobutton.o

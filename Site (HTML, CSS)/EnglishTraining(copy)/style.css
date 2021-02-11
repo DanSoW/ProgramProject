@@ -1,0 +1,422 @@
+
+hmtl{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Шапка страницы*/
+.header-site{
+    display:flex;
+    flex-direction: row;
+
+    height: 50px;
+    text-align: center;
+
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.header-site div{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.header-site div:first-child:hover{
+    background-color: orange;
+}
+
+.header-site div:first-child > a{
+    color: orange;
+}
+
+.header-site div:first-child:hover > a{
+    color: white;
+}
+
+.header-site div:nth-child(2):hover{
+    background-color: green;
+}
+.header-site div:nth-child(2) > a{
+    color: green;
+}
+.header-site div:nth-child(2):hover > a{
+    color: white;
+}
+
+
+.header-site div:nth-child(2) ~ div > a{
+    color: black;
+}
+
+.header-site div:nth-child(2) ~ div > a:hover{
+    color: #4753be;
+    text-decoration: underline;
+}
+
+/*Конец шапки*/
+
+.blue_header{
+    display: flex;
+    flex-direction: row;
+
+    height: 60px;
+    background-color: rgb(87, 142, 206);
+    color: white;
+}
+
+/*Верхний контент*/
+
+.high_content{
+    display: flex;
+    flex-direction: row;
+
+    height: 1200px;
+    margin-top: 0px;
+    margin-left: 5%;
+    /*tests*/
+    
+}
+
+div[class*="high_content"] > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    margin-top: 2%;
+}
+
+div[class*="high_content"] > div:first-child div:first-child div:first-child:hover{
+    background-color: rgb(31, 155, 31);
+}
+
+div[class*="high_content"] > div:first-child div:first-child div:first-child:hover a{
+    color: white!important;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(1) > div:first-child:hover{
+    background-color: blue;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(1) > div:last-child a{
+    color:blue;
+    text-decoration: none;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(2) > div:first-child:hover{
+    background-color: rgb(224, 221, 19);
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(2) > div:last-child a{
+    color:rgb(224, 221, 19);
+    text-decoration: none;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(3) > div:first-child:hover{
+    background-color: orange;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(3) > div:last-child a{
+    color:orange;
+    text-decoration: none;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(4) > div:first-child:hover{
+    background-color: rgb(155, 62, 25);
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(4) > div:last-child a{
+    color:rgb(155, 62, 25);
+    text-decoration: none;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(5) > div:first-child:hover{
+    background-color: black;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div:nth-of-type(5) > div:last-child a{
+    color: black;
+    text-decoration: none;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div > div:first-child{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70px!important;
+}
+
+div[class*="high_content"] > div:nth-child(2) > div > div:last-child{
+    margin-left: 15px!important;
+}
+
+div[class*="high_content"] > div:first-child > div[style*="order: 3;"] > div{
+    vertical-align: top;
+    width: 200px!important;
+    display: inline-block;
+}
+
+
+.middle_content{
+    height: 420px;
+    margin-top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div[class*="middle_content"] img{
+    margin-right: 10px;
+}
+
+div[class*="middle_content"] h2{
+    margin-bottom: 5px;
+}
+
+div[class*="middle_content"] center:last-child div{
+    border: orange 1px solid;
+    border-radius: 10%;
+}
+
+div[class*="middle_content"] center:last-child div a{
+    color: white;
+    text-decoration: none;
+}
+
+div[class*="middle_content"] center:last-child div:hover{
+    background-color: white!important;
+}
+
+div[class*="middle_content"] center:last-child div:hover a{
+    color:orange;
+}
+
+
+.good_learning_in_school{
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 580px;
+}
+
+div[class*="good_learning_in_school"] div{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+div[class*="good_learning_in_school"] div:first-of-type{
+    margin-top: 30px;
+}
+
+div[class*="good_learning_in_school"] div:last-of-type div{
+    margin-top: 20px!important;
+}
+
+div[class*="good_learning_in_school"] div:nth-child(n) div{
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+    width: 50%;
+}
+
+div[class*="good_learning_in_school"] img{
+    float: bottom;
+}
+
+div[class*="good_learning_in_school"] span{
+    font-size: 25px!important;
+}
+
+.registry{
+    background-image: url("image/background_registry.png");
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 570px;
+    border-top: 1px solid transparent;
+    color: rgb(0, 0, 0);
+}
+
+div[class*="registry"] div:first-of-type{
+    margin-top: 20%;
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 70%;
+    height: 160px;
+}
+
+div[class*="registry"] div span{
+    font-weight: normal;
+    font-size: 40px;
+}
+
+div[class*="registry"] div > div:first-of-type{
+    margin-left: 5%!important;
+}
+
+div[class*="registry"] div:first-of-type div{
+    margin: 0px;
+    display: inline-block;
+    width: 220px!important;
+    height: 50px!important;
+    margin-left: 20px;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+div[class*="registry"] div:first-of-type div input{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 14%;
+    font-size: 20px!important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #887c7c!important;
+    background-color: white!important;
+    font-weight: normal!important;
+}
+
+
+div[class*="registry"] div:last-of-type{
+    margin-left: 40%;
+    margin-right: 5%;
+    width: 260px;
+    height: 50px;
+}
+
+div[class*="registry"] div:last-of-type input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+}
+
+.slider{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    height: 370px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div[class*="slider"] span:first-of-type{
+    font-size: 40px;
+}
+
+#div_slider{
+    background-color: white;
+    background-repeat: no-repeat;
+    margin: 10px;
+    height: 300px;
+}
+
+
+.learning_block{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div[class*="learning_block"] span:first-of-type{
+    font-size: 40px;
+}
+
+div[class*="learning_block"] div div:nth-child(n){
+    display: inline-block!important;
+    vertical-align: top;
+    height: 200px;
+    width: 170px;
+    margin-top: 2%;
+}
+
+div[class*="learning_block"] div div:nth-child(n) img{
+    float:top;
+}
+
+div[class*="learning_block"] div div:nth-child(n) a:hover{
+    color:rgb(85, 85, 192);
+    font-weight: normal;
+}
+
+div[class*="learning_block"] div div:nth-child(n) a{
+    color:black;
+    font-weight: normal;
+}
+
+div[attribute] a{
+    color:rgb(58, 58, 204);
+    text-decoration: underline;
+}
+
+div[attribute] a:hover{
+    text-decoration: none;
+}
+
+.basement{
+    background-color: #363434;
+    height: 460px;
+    border: 1px solid initial;
+}
+
+div[class="basement"] div{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div[class="basement"] div div{
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    width: 300px;
+}
+
+div[class="basement"] div div:nth-of-type(n){
+    margin-left: 0;
+}
+
+div[class="basement"] div div:nth-of-type(n) a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul{
+    padding-left: 0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ul li{
+    display:inline-block;
+    margin-left: 10%;
+}
+

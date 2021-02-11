@@ -1,0 +1,13 @@
+release/main.o
+release/mainwindow.o
+release/tablewidget.o
+release/wcheckbox.o
+release/windowpicture.o
+release/wmaskedit.o
+release/wradiobutton.o
+release/moc_mainwindow.o
+release/moc_tablewidget.o
+release/moc_wcheckbox.o
+release/moc_windowpicture.o
+release/moc_wmaskedit.o
+release/moc_wradiobutton.o
